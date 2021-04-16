@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animations>
+	<Animation loop="true" name="Aang_idle" frameDuration="140">
+	  <Frame image="char/Aang_Idle1.png"></Frame>
+	  <Frame image="char/Aang_Idle2.png"></Frame>
+	  <Frame image="char/Aang_Idle3.png"></Frame>
+	  <Frame image="char/Aang_Idle4.png"></Frame>
+	  <Frame image="char/Aang_Idle5.png"></Frame>
+	  <Frame image="char/Aang_Idle6.png"></Frame>
+	  <Frame image="char/Aang_Idle7.png"></Frame>
+	  <Frame image="char/Aang_Idle8.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_spawn" frameDuration="100">
+	  <Frame image="char/Aang_cast01Start3.png"></Frame>
+	  <Frame image="char/Aang_cast01Start2.png"></Frame>
+	  <Frame image="char/Aang_cast01Start1.png"></Frame>
+	</Animation>
+
+	<Animation loop="true" name="Aang_dashing" frameDuration="100">
+	  <Frame image="char/Aang_front.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_front" frameDuration="70">
+	  <Frame image="char/Aang_front.png"></Frame>
+	</Animation>
+
+        <Animation loop="false" name="Aang_hit" frameDuration="500">
+	  <Frame image="char/Aang_back.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_back" frameDuration="70">
+	  <Frame image="char/Aang_back.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_hop" frameDuration="70">
+	  <Frame image="char/Aang_Idle1.png"></Frame>
+	</Animation>
+
+	<Animation loop="true" name="Aang_drop" frameDuration="70">
+	  <Frame image="char/Aang_Idle1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast01Start" frameDuration="70">
+	  <Frame image="char/Aang_Idle1.png"></Frame>
+          <Frame image="char/Aang_cast01Start1.png"></Frame>
+          <Frame image="char/Aang_cast01Start2.png"></Frame>
+          <Frame image="char/Aang_cast01Start3.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast01Mid" frameDuration="70">
+	  <Frame image="char/Aang_cast01Mid1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast01End" frameDuration="70">
+	  <Frame image="char/Aang_cast01End1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast02Start" frameDuration="70">
+	  <Frame image="char/Aang_Idle1.png"></Frame>
+          <Frame image="char/Aang_cast01Start1.png"></Frame>
+          <Frame image="char/Aang_cast01Start2.png"></Frame>
+          <Frame image="char/Aang_cast01Start3.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast02Mid" frameDuration="70">
+	  <Frame image="char/Aang_cast01Mid1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast02End" frameDuration="70">
+	  <Frame image="char/Aang_cast01End1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast03Start" frameDuration="70">
+	  <Frame image="char/Aang_Idle1.png"></Frame>
+          <Frame image="char/Aang_cast01Start1.png"></Frame>
+          <Frame image="char/Aang_cast01Start2.png"></Frame>
+          <Frame image="char/Aang_cast01Start3.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast03Mid" frameDuration="70">
+	  <Frame image="char/Aang_cast01Mid1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Aang_cast03End" frameDuration="70">
+	  <Frame image="char/Aang_cast01End1.png"></Frame>
+	</Animation>
+</Animations>

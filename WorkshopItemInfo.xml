@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2259831863</PublishedFileId>
+  <Name>One Step from The Last Airbender</Name>
+  <Description>THIS MOD REQUIRES MORE LUA POWER TO FUNCTION PROPERLY!
+
+Introducing some of the main characters from Avatar The Last Airbender to the world of One Step From Eden.
+
+Including:
+Aang the Airbender
+Katara the Waterbender
+Toph the Earthbender
+Zuko the F</Description>
+  <IconFileName>workshopIcon.png</IconFileName>
+  <Tags>
+    <string>Characters</string>
+  </Tags>
+  <Priority>0</Priority>
+  <ModVersion>0</ModVersion>
+  <GameVersion>1.6.0</GameVersion>
+</WorkshopItemInfo>

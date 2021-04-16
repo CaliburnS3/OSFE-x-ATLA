@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Artifacts>
+  <Artifact itemID="Airbender">
+    <Name>Airbending</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnMove" effect="SpellPowerBattle" duration="Infinite" amount="1"></App>
+    <App trigger="OnLandHit" effect="CastSpell" target="Self" value="AangContainerSpell"></App>
+    <Description>Moving increases ef.SpellPower, attacking cuts ef.SpellPower in half</Description>
+    <Meta>Moving increases ef.SpellPower, attacking decreases ef.SpellPower</Meta>
+    <Flavor>Did someone open a window?</Flavor>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="Waterbender">
+    <Name>Waterbending</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnFlow" effect="Frost" target="RandomEnemy" amount="1"></App>
+    <Description>If you have ef.FlowStack, casting a spell applies ef.Frost to a random enemy.</Description>
+    <Meta>Bend that water</Meta>
+    <Flavor>Is water wet?</Flavor>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="Earthbender">
+    <Name>Earthbending</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnLandHit" check="StatusOver" checkValue="Root" checkAmount="0" target="Hit" triggerCooldown="0.75" amount="30">Damage</App>
+    <Description>Deal 40 damage to enemies affected by ef.Root.</Description>
+    <Meta>Hitting an enemy affected by ef.Root deals 40 extra ef.Dmg.</Meta>
+    <Flavor>Rock and roll'n.</Flavor>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="Firebender">
+    <Name>Firebending</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnFlameHit" check="PlayerWasHit" target="Self" amount="LastDamageAmount">Shield</App>
+    <App trigger="OnFlameHit" check="PlayerWasHit" target="RandomEnemy" amount="10">Damage</App>
+    <App trigger="OnLandHit"  effect="CastSpell" value="HitFlame" target="Player" amount="1"></App>
+    <Description>Immune to fire, standing in fire hurts enemies instead. Attacks start ef.Flame</Description>
+    <Meta>Immune to fire, standing in fire hurts enemies instead. Attacks start ef.Flame</Meta>
+    <Flavor>Super! Hot! Super! Hot!</Flavor>
+    <Rarity>3</Rarity>
+  </Artifact>
+</Artifacts>

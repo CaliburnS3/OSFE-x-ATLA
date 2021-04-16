@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="ATLA1">
+    <Name>OSFE x ATLA</Name>
+    <Title>Air</Title>
+    <Tags>Campaign, Default, Unlock</Tags>
+    <Description>Aang, a young kid with a natural talent for airbending.</Description>
+    <Flavor>Aang, a young kid with a natural talent for airbending.</Flavor>
+    <Weapon>Aang</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>2</MaxMana>
+    <BasicCooldown>1</BasicCooldown>
+    <ManaRegen>0.6</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <InvulLength>0</InvulLength>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Flurry</Deck>
+    <Deck>Pull</Deck>
+    <Deck>ForcePushUp</Deck>
+    <Deck>ForcePushDown</Deck>
+    <Artifacts>Airbender</Artifacts>
+    <Stats localGunPointPos="0,0" animName="Aang" splashSprite="AangSplash"
+      startingBrands="Kinesys,None"></Stats>
+  </Being>
+<Being beingID="ATLA2">
+    <Name>OSFE x ATLA</Name>
+    <Title>Water</Title>
+    <Tags>Campaign, Unlock</Tags>
+    <Description>Katara, A water bending master, born in the Southern Water Tribe.</Description>
+    <Flavor>Katara, A water bending master, born in the Southern Water Tribe.</Flavor>
+    <Weapon>Katara</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>1</BasicCooldown>
+    <ManaRegen>0.6</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <InvulLength>0</InvulLength>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Frostbolt</Deck>
+    <Deck>ColdSnap</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>Rest</Deck>
+    <Artifacts>Waterbender</Artifacts>
+    <Stats localGunPointPos="0,0" animName="Aang" splashSprite="KataraSplash"
+      startingBrands="Anima,Hearth"></Stats>
+  </Being>
+  <Being beingID="ATLA3">
+    <Name>OSFE x ATLA</Name>
+    <Title>Earth</Title>
+    <Tags>Campaign, Unlock</Tags>
+    <Description>Toph, despite being a blind 12 year old girl, is the most powerful earthbender in the world.</Description>
+    <Flavor>Toph, despite being a blind 12 year old girl, is the most powerful earthbender in the world.</Flavor>
+    <Weapon>Toph</Weapon>
+    <Health>950</Health>
+    <MaxHealth>950</MaxHealth> 
+    <Money>20</Money>
+    <MaxMana>2</MaxMana>
+    <BasicCooldown>1</BasicCooldown>
+    <ManaRegen>0.6</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <InvulLength>0</InvulLength>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>EarthenArmor</Deck>
+    <Deck>Tremor</Deck>
+    <Deck>RockCycle</Deck>
+    <Deck>SumWall</Deck>
+    <Artifacts>Earthbender</Artifacts>
+    <Stats localGunPointPos="0,0" animName="Aang" splashSprite="TophSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="ATLA4">
+    <Name>OSFE x ATLA</Name>
+    <Title>Fire</Title>
+    <Tags>Campaign, Unlock</Tags>
+    <Description>Zuko, the banished prince of the Fire Nation seeks to restore his honor at any price.</Description>
+    <Flavor>Zuko, the banished prince of the Fire Nation seeks to restore his honor at any price.</Flavor>
+    <Weapon>Zuko</Weapon>
+    <Health>1100</Health>
+    <MaxHealth>1100</MaxHealth> 
+    <Money>20</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>1</BasicCooldown>
+    <ManaRegen>0.6</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <InvulLength>0</InvulLength>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>PekayFire</Deck>
+    <Deck>Thunder</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Swipe</Deck>
+    <Artifacts>Firebender</Artifacts>
+    <Stats localGunPointPos="0,0" animName="Aang" splashSprite="ZukoSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+</Beings>

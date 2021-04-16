@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spells>
+  <Spell itemID="Aang">
+    <Stats animShot="WideShot" shotSound="mark_02" cooldown="0.05"
+      setToGunPoint="Both" yVariance="0" hitboxHeight="3"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>AirBlast</Name>
+    <Tags>Weapon</Tags>
+    <Unlock></Unlock>
+    <Action>Multishot</Action>
+    <Description>Fire a blast of air that pushes enemies back. Damage scales with ef.SpellPower</Description>
+    <Meta>Fire a blast of air that pushes enemies back. Damage scales with ef.SpellPower</Meta>
+    <Flavor>Well this blows.</Flavor>
+    <Brand></Brand>
+    <Mana>1</Mana>
+    <Damage>10</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Current</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>800</ShotVelocity>
+    <ShotDuration>1</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.15</CastDelay>
+    <CastDuration></CastDuration>
+    <BlastDuration></BlastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+    <OnHit amount="SpellPower">Damage</OnHit>
+    <OnHit amount="1" duration="0" target="Enemies">Move</OnHit>
+  </Spell>
+  <Spell itemID="Katara">
+    <Stats animShot="Slash2x3Life" shotSound="woosh_fast" cooldown="0.05"
+      setToGunPoint="Both" yVariance="0" hitboxHeight="3" hitboxWidth="2" spawnOffsetX="1" hitboxOffsetX="0.5"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>WaterWhip</Name>
+    <Tags>Weapon</Tags>
+    <Unlock></Unlock>
+    <Action>Multishot</Action>
+    <Description>Shoot out a quick blast of water. 20% chance to gain ef.Flow</Description>
+    <Meta>Shoot out a quick blast of water. 20% chance to gain ef.Flow</Meta>
+    <Flavor>Coolwhip's lame brother.</Flavor>
+    <Brand></Brand>
+    <Mana>0</Mana>
+    <Damage>10</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Current</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.33</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.15</CastDelay>
+    <CastDuration></CastDuration>
+    <BlastDuration></BlastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+    <OnHit amount="1" chance="0.2">FlowStack</OnHit>
+  </Spell>
+  <Spell itemID="Toph">
+    <Stats animShot="Rockbolt" shotSound="woosh_fast" cooldown="2.00"
+      setToGunPoint="Both" yVariance="0" hitboxHeight="1" hitboxWidth="1"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>Seismic Sense</Name>
+    <Tags>Weapon</Tags>
+    <Unlock></Unlock>
+    <Action>Multishot</Action>
+    <Description>Launch a rock forward, ef.Root on hit.</Description>
+    <Meta>Launch a rock forward, ef.Root on hit.</Meta>
+    <Flavor>Twinkle Toes!</Flavor>
+    <Brand></Brand>
+    <Mana>0</Mana>
+    <Damage>10</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Current</Location>
+    <TimeBetweenShots>0.02</TimeBetweenShots>
+    <ShotVelocity>800</ShotVelocity>
+    <ShotDuration>3</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.20</CastDelay>
+    <BlastDuration>1</BlastDuration>
+    <DestroyOnHit>true</DestroyOnHit>
+    <OnCast></OnCast>
+    <OnHit amount="1" target="Hit" duration="4">Root</OnHit>
+  </Spell>
+  <Spell itemID="Zuko">
+    <Stats animShot="Firebolt" shotSound="woosh_fast" cooldown="1.00"
+      setToGunPoint="Both" slashLocation="1" recoveryTime="0.3"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>Fireblast</Name>
+    <Tags>Weapon</Tags>
+    <Unlock></Unlock>
+    <Action>Multishot</Action>
+    <Description>Shoot out a trail of fire.</Description>
+    <Meta>Shoot out a trail of fire.</Meta>
+    <Flavor>Is it hot in here?</Flavor>
+    <Brand></Brand>
+    <Mana>0</Mana>
+    <Damage>20</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Current</Location>
+    <TimeBetweenShots>0.02</TimeBetweenShots>
+    <ShotVelocity>1000</ShotVelocity>
+    <ShotDuration>0.15</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.20</CastDelay>
+    <BlastDuration>1</BlastDuration>
+    <DestroyOnHit>true</DestroyOnHit>
+    <OnCast></OnCast>
+    <OnHit>Flame</OnHit>
+    <TouchTile>Flame</TouchTile>
+  </Spell>
+  <Spell itemID="AangContainerSpell">
+    <Action>AangPower</Action>
+    <Name>Credits to: Sunreal</Name>
+    <Description>We can call our Lua function by casting this spell!</Description>
+    <Damage>Zero</Damage>
+    <Brand>Bending</Brand>
+    <Mana>0</Mana>
+  </Spell>
+</Spells>
